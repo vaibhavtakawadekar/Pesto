@@ -1,0 +1,68 @@
+Q.1)    What is a protocol stack, and how is it used in web development?
+A-      Internet Protocol has different layers and each layer is responsible for specific task,(eg. data encoding, routing, encryption, 
+        error handling, signalling etc.) these layers are the 'Protocol stack'.
+        The protocol stack consists of Application, Presentation, session, transport, network, data link & physical layer. In web development, 
+        the protocol stack primarily revolves around the application layer of the OSI model. The most common protocols used in web development include, HTTP,
+        HTTPS, TCP/IP, DNS, FTP etc. 
+        HTTP:  data communication in the World Wide Web
+        HTTPS: provide a secure connection between the client and the server.
+        TCP/IP: Encrypts data for secure transmission, ensuring privacy and security for sensitive information
+        DNS: Translates domain names into IP addresses
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Q.2)    What are the different types of web servers, and how do they differ in terms of functionality and performance?
+        There are different types of server which includes:
+        Web server, database server, email server, web proxy server, DNS, FTP, DHCP, NTP, File server,
+        cloud server etc.
+        Every server has has its core functionality and they are used for storing/hanling specific kind of data.
+        Web Server: Serves web pages and responds to HTTP requests from clients, delivering content like HTML, CSS, and JavaScript.
+
+        Database Server: Stores and manages data, allowing users or applications to retrieve, update, and manipulate data stored in databases.
+
+        Email Server: Manages the sending, receiving, and storage of email messages, handling protocols like SMTP, IMAP, and POP3.
+
+        Web Proxy Server: Acts as an intermediary between clients and web servers, caching and filtering requests to improve performance, security,
+        and anonymity.
+
+        DNS (Domain Name System): Translates domain names into IP addresses, facilitating the resolution of human-readable domain names to numerical IP addresses.
+
+        FTP (File Transfer Protocol) Server: Facilitates the transfer of files between clients and servers over a network, providing a standardized 
+        way to upload, download, and manage files.
+
+        DHCP (Dynamic Host Configuration Protocol) Server: Automatically assigns IP addresses and network configuration parameters to devices 
+        on a network, simplifying network setup and management.
+
+        NTP (Network Time Protocol) Server: Synchronizes the time between devices on a network, ensuring accurate timekeeping for applications and services.
+
+        File Server: Stores and manages files, allowing users to access and share files over a network, typically using protocols like SMB (Server Message Block) or NFS (Network File System).
+
+        Cloud Server: Provides on-demand computing resources and services over the internet, allowing users to deploy and manage virtual servers, storage, and applications remotely.
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Q.3)    What is web hosting, and what are the different types of hosting services available for websites?
+A-      In web development, hosting refers to the service of storing and making websites accessible on the internet. There are various types of hosting available:
+        Shared Hosting: Multiple websites share server resources; ideal for small websites or beginners on a budget.
+        VPS Hosting (Virtual Private Server): Offers more resources and control than shared hosting, with a dedicated virtual server for your website; suitable for growing websites.
+        Dedicated Hosting: Entire physical server dedicated to your website, offering high performance and customization; best for large, resource-intensive websites.
+        Cloud Hosting: Utilizes multiple interconnected servers for scalability and reliability; effective for handling varying traffic levels.
+        Managed WordPress Hosting: Hosting provider manages updates, backups, and security for WordPress websites; ideal for content-focused WordPress site owners.
+        Reseller Hosting: Purchase hosting resources in bulk, reselling smaller plans to clients or starting your hosting business. Suitable for managing multiple websites for clients.
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Q.4)    What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+A.-     Scaling is the process of increasing a website's capacity to handle more users, traffic, and requests. It is important
+        because it helps ensure that the website remains accessible and responsive even during high traffic periods.
+        Vertical scaling, or scaling up, involves upgrading the existing server's resources to handle increased traffic without changing 
+        the overall infrastructure.
+
+        Horizontal scaling, or scaling out, entails adding more servers to distribute the load across multiple machines, ideal for 
+        large-scale websites facing rapid growth and significant traffic increases.
+
+Q.5)    What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+A-      SEO, or Search Engine Optimization, is the process of optimizing a website to improve its visibility and ranking in search engine results pages
+        Web developers can optimize their websites for better search engine rankings by conducting keyword research to identify relevant terms, integrating these keywords naturally into content,
+        crafting compelling meta tags and descriptions, submitting sitemaps to search engines for efficient crawling and indexing, and using tools like Google and Bing Webmaster Tools to monitor 
+        and analyze website performance.
