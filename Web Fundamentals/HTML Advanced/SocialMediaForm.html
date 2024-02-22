@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Social Network Form</title>
+        <link rel="stylesheet" type="text/css" href="formstyle.css">
+    </head>
+    <body>
+        <h1>Join a Social Network</h1>
+        <form name="socialnetworkform" method="post" enctype="multipart/form-data">
+            <div id="name">
+                <label for="fullName">Full name: </label>
+                <input type="text" id="fullName">
+            </div>
+            <div id="emailID">
+                <label for="email">Email address: </label>
+                <input type="text" id="email">
+            </div>
+            <div id="info">
+                <label for="about">About you: </label>
+                <textarea name="aboutuser" id="about" cols="50" rows="3"></textarea>
+            </div>
+            <div id="photo">
+                <label for="picture">Photo: </label>
+                <input type="file" id="picture">
+            </div>
+            <div id="submitbutton">
+                <button>Submit</button>
+            </div>
+        </form>        
+    </body>
+</html>
