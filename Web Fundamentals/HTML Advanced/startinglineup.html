@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Lineup</title>
+    <link rel="stylesheet" type="text/css" href="startinglineup.css">
+  </head>
+  <body>
+    <form action="post">
+      <h1>Starting Lineup</h1>
+      <p id="status">
+        <fieldset >
+          <legend>Status:</legend>
+          <p>
+            <label for="Draft">
+              <input type="radio" name="status" id="Draft" /> Draft
+            </label>
+            <label for="Final">
+              <input type="radio" name="status" id="Final" /> Final
+            </label>
+          </p>
+        </fieldset>
+      </p>
+      <p>
+        Date:
+        <select name="gameDate" id="">
+          <option value="March 20">March 20</option>
+          <option value="March 24">March 24</option>
+          <option value="April 2">April 2</option>
+          <option value="April 6">April 6</option>
+          <option value="April 13">April 13</option>
+        </select>
+      </p>
+      <p>
+        <fieldset>
+          <legend>Players:</legend>
+          <p>
+          <label for="arav">
+            <input type="checkbox" name="player" id="arav" /> Arav Agarwal
+          </label>
+          <label for="ava">
+            <input type="checkbox" name="player" id="ava" /> Ava Johnson
+          </label>
+          <label for="julio">
+            <input type="checkbox" name="player" id="julio" /> Julio Ortiz
+          </label>
+          <label for="liam">
+            <input type="checkbox" name="player" id="liam" /> Liam Rubio
+          </label>
+          <label for="emma">
+            <input type="checkbox" name="player" id="emma" /> Emma Witherspoon
+          </label>
+          </p>
+        </fieldset>
+      </p>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

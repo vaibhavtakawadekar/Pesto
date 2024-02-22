@@ -1,0 +1,11 @@
+label{
+    display:block;
+}
+
+p[id=status]{
+    margin-top: 50px;
+}
+
+fieldset{
+    margin-right: 700px;
+}
