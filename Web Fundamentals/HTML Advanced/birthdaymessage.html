@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Message Creator</title>
+        <link rel="stylesheet" type="text/css" href="birthdaystyle.css">
+    </head>
+    <body>
+        <h1>Happy Birthday Message Creator</h1>
+        <form name="birthdayform" method="post">
+            <div id="message">
+                <label for="message">Message? </label>
+                <input type="text" id="message">
+            </div>
+            <div id="emailID">
+                <label for="email">Email address? </label>
+                <input type="text" id="email">
+            </div>
+            <div id="date">
+                <label for="date">Date to send? </label>
+                <input type="date" id="date">
+            </div>
+            <div id="colour">
+                <label for="colour">Message colour? </label>
+                <input type="color" id="colour">
+            </div>
+            <div id="blinks">
+                <label for="noofblinks">Number of blinks? </label>
+                <input type="number" id="noofblinks" min="0" max="10" value="0">
+            </div>
+            <div id="volume">
+                <label for="music">Music Volume? </label>
+                <input type="range" id="music" min="0" max="50" value="20">
+            </div>
+            <div id="submitbutton">
+                <button>Send Birthday Message</button>
+            </div>
+        </form>        
+    </body>
+</html>
