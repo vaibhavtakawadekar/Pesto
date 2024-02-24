@@ -1,0 +1,36 @@
+img{
+    height:50%;
+    width:auto;
+    display: block;
+}
+
+section{
+    margin-top: 50px;
+}
+
+a.resto{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+div.star{
+    margin-top: 20px;
+    font-size: 30px;;
+    color: gold;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+div.review{
+    margin-top: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+button{
+    margin-top: 20px;
+}

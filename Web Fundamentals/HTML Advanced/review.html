@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Resto-Review</title>
+  </head>
+  <link rel="stylesheet" href="indexstyle.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <body>
+    <h1>Restaurant Review</h1>
+    <header>
+      <a href="index.html">Home</a>
+      <a href="review.html">Add Review</a>
+      <a href="about.html">About</a>
+    </header>
+    <form action="post">
+      <h3>Add Review</h3>
+      <div class="review">
+        <label for="name">Name? </label>
+        <input type="text" id="name" />
+      </div>
+      <div class="review">
+        <label for="restaurant">Restaurant? </label>
+        <select name="restaurant"> 
+            <option value="default" selected>Choose One...</option>
+            <option value="mainstreetcafe">Main Street Cafe</option>
+            <option value="greekhouse">Grrek House</option>
+        </select>
+      </div>
+      <div class="review">
+        <label for="date">Date of visit? </label>
+        <input type="date" id="date">
+      </div>
+      <div class="review">
+        <label for="rating">Rating? </label>
+        <input type="number" min="0" max="5" id="rating">
+      </div>
+      <div class="review">
+        <label for="details">Details?</label>  
+        <textarea name="details" id="details" cols="50" rows="6"></textarea>
+      </div>
+      <button>Submit</button>
+    </form>
+    <footer>&copy 2022 Restaurant Review</footer>
+  </body>
+</html>
