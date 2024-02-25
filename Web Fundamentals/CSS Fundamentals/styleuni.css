@@ -1,0 +1,38 @@
+#logo{
+    height: 10%;
+    width: auto;
+    display: block;
+}
+
+#snakebite{
+    margin:20px ;
+    margin-left: 5px;
+    display: block;
+}
+h1{
+    background-color: red;
+    font-family: sans-serif;
+    color: white;
+    padding: 5px;
+    font-size: 24px;
+}
+
+
+p.date{
+    font-family: Arial;
+    color: lightgray;
+    font-size: 12px;
+}
+
+p,ol{
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    color: gray;
+}
+
+a{
+   
+    font-family: Arial;
+    color: blue;
+    font-size: 12px; 
+}
