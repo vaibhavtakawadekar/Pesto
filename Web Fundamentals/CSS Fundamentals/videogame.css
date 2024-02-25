@@ -1,0 +1,41 @@
+div.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+    border: 2px solid green;
+    
+}
+
+div.title{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: green;
+    padding: 10px;
+    font-family: Helvetica;
+    color: white;
+    font-size: 13px;
+}
+
+footer{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 13px;
+
+}
+
+.table{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+th{
+    padding: 10px;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+
+.odd{
+    background-color: rgb(227, 250, 226);
+}
