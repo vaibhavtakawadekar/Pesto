@@ -1,0 +1,10 @@
+.bookitem{
+    color: crimson;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bookprops{
+    width: 600px;
+    margin-left: 50px;
+}
