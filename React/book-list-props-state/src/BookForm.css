@@ -1,0 +1,33 @@
+form>div{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+div>form{
+    padding: 10px;
+    background-color: yellowgreen
+}
+.myform{
+    width: 300px;
+}
+
+.deletebutton{
+    /* margin-left: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.delete{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 600px;
+}
