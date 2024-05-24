@@ -5,8 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render(  
   <React.StrictMode>
+    <img src='background.jpg' alt='Background'></img>
     <App />
   </React.StrictMode>
 );
